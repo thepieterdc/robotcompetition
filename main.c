@@ -22,7 +22,6 @@ void main(void) {
     initADC();
     initMotor();
 
-
     while (SW_C != PRESSED) {
         delay_ms(50);
     }
@@ -85,7 +84,7 @@ void main(void) {
 
         andereMotor = vinnig * (rechtsAchter - rechtsVoor);
         
-        if (voor > 470) {
+        if (voor > 590) {
             backlightOn();
             setSpeedMotor1(0);
             setSpeedMotor2(0);
