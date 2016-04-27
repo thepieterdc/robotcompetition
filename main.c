@@ -42,6 +42,8 @@ void main(void) {
     LEDS = 0b00000001;
     backlightOn();
     delay_s(1);
+    
+    backlightOff();
 
 
     rechtsVoor = readADC(RV);
@@ -82,20 +84,29 @@ void main(void) {
         }
 
         andereMotor = vinnig * (rechtsAchter - rechtsVoor);
-
+        
         if (voor > 470) {
             backlightOn();
-            setSpeedMotor1(700);
-            setSpeedMotor2(1023);
-            delay_ms(300);
+            setSpeedMotor1(0);
+            setSpeedMotor2(0);
+            delay_ms(500);
+            voor = readADC(V);
+            if(voor > 470) {
+                setSpeedMotor1(-1023);
+                setSpeedMotor2(-1023);
+                delay_ms(450);
+                setSpeedMotor1(1023);
+                setSpeedMotor2(-500);
+                delay_ms(600);
+            }
             backlightOff();
-        } else if (gem > 350) {
+        } else if (gem > 250) {
             setSpeedMotor1(1023);
             setSpeedMotor2(700);
         } else if (rechtsAchter > (rechtsVoor * 1.2)) {
             setSpeedMotor1(1023 - andereMotor);
             setSpeedMotor2(1023);
-        } else if (rechtsAchter * 1.2 < rechtsVoor) {
+        } else if (rechtsAchter < rechtsVoor) {
             setSpeedMotor1(1023);
             setSpeedMotor2(1023 - andereMotor);
         } else {

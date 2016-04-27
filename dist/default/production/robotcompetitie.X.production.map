@@ -1,73 +1,73 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Tue Apr 19 21:22:52 2016
+Linker Map File - Created Wed Apr 27 19:10:29 2016
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
                 ---------  ---------  ---------  ---------  ---------
                _entry_scn       code   0x000000    program   0x000006
                    .cinit    romdata   0x000006    program   0x00000e
-             .code_main.o       code   0x000014    program   0x0004b6
-        .code_dwengoLCD.o       code   0x0004ca    program   0x00034a
-                     PROG       code   0x000814    program   0x00032a
-      .code_dwengoDelay.o       code   0x000b3e    program   0x00021a
-      .code_dwengoMotor.o       code   0x000d58    program   0x000144
-                   STDLIB       code   0x000e9c    program   0x000134
-      .code_dwengoBoard.o       code   0x000fd0    program   0x00012e
-        .code_dwengoADC.o       code   0x0010fe    program   0x0000f2
-               _cinit_scn       code   0x0011f0    program   0x00009e
-          .code_pw2open.o       code   0x00128e    program   0x000076
-          .code_adcopen.o       code   0x001304    program   0x00006e
-         .code_pw2setdc.o       code   0x001372    program   0x00005e
-         .code_pw1setdc.o       code   0x0013d0    program   0x00005e
-           .code_t2open.o       code   0x00142e    program   0x000036
-          .code_pw1open.o       code   0x001464    program   0x000030
-         .code_adcsetch.o       code   0x001494    program   0x00002e
-         .code_fxd1616u.o       code   0x0014c2    program   0x00002c
-                    .code       code   0x0014ee    program   0x000020
-             _startup_scn       code   0x00150e    program   0x00001c
-          .code_adcread.o       code   0x00152a    program   0x000012
-          .code_adcbusy.o       code   0x00153c    program   0x00000a
-          .code_adcconv.o       code   0x001546    program   0x000004
-           .code___init.o       code   0x00154a    program   0x000002
-       .romdata_adcconv.o    romdata   0x00154c    program   0x000000
-       .romdata_adcopen.o    romdata   0x00154c    program   0x000000
-     .romdata_dwengoLCD.o    romdata   0x00154c    program   0x000000
-       .romdata_adcbusy.o    romdata   0x00154c    program   0x000000
-   .romdata_dwengoMotor.o    romdata   0x00154c    program   0x000000
-       .romdata_adcread.o    romdata   0x00154c    program   0x000000
-      .romdata_adcsetch.o    romdata   0x00154c    program   0x000000
-   .romdata_dwengoBoard.o    romdata   0x00154c    program   0x000000
-         .romdata_c018i.o    romdata   0x00154c    program   0x000000
-          .idata_main.o_i    romdata   0x00154c    program   0x000012
-          .romdata_main.o    romdata   0x00154c    program   0x000000
-      .romdata_pw2setdc.o    romdata   0x00154c    program   0x000000
-      .idata_pw2setdc.o_i    romdata   0x00154c    program   0x000000
-      .romdata_pw1setdc.o    romdata   0x00154c    program   0x000000
-      .idata_pw1setdc.o_i    romdata   0x00154c    program   0x000000
-        .romdata_t2open.o    romdata   0x00154c    program   0x000000
-        .idata_t2open.o_i    romdata   0x00154c    program   0x000000
-       .romdata_pw2open.o    romdata   0x00154c    program   0x000000
-       .idata_pw2open.o_i    romdata   0x00154c    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x00154c    program   0x000000
-       .romdata_pw1open.o    romdata   0x00154c    program   0x000000
-        .romdata___init.o    romdata   0x00154c    program   0x000000
-       .idata_pw1open.o_i    romdata   0x00154c    program   0x000000
-   .romdata_dwengoDelay.o    romdata   0x00154c    program   0x000000
-     .romdata_dwengoADC.o    romdata   0x00154c    program   0x000000
-   .idata_dwengoMotor.o_i    romdata   0x00155e    program   0x000000
-     .idata_dwengoLCD.o_i    romdata   0x00155e    program   0x000000
-         .idata_c018i.o_i    romdata   0x00155e    program   0x000000
-            .code_c018i.o       code   0x00155e    program   0x000000
-      .idata_fxd1616u.o_i    romdata   0x00155e    program   0x000000
-        .idata___init.o_i    romdata   0x00155e    program   0x000000
-   .idata_dwengoDelay.o_i    romdata   0x00155e    program   0x000000
-     .idata_dwengoADC.o_i    romdata   0x00155e    program   0x000000
-   .idata_dwengoBoard.o_i    romdata   0x00155e    program   0x000000
-      .idata_adcsetch.o_i    romdata   0x00155e    program   0x000000
-       .idata_adcread.o_i    romdata   0x00155e    program   0x000000
-       .idata_adcopen.o_i    romdata   0x00155e    program   0x000000
-       .idata_adcconv.o_i    romdata   0x00155e    program   0x000000
-       .idata_adcbusy.o_i    romdata   0x00155e    program   0x000000
+             .code_main.o       code   0x000014    program   0x00040a
+        .code_dwengoLCD.o       code   0x00041e    program   0x00034a
+                     PROG       code   0x000768    program   0x000318
+      .code_dwengoDelay.o       code   0x000a80    program   0x00021a
+      .code_dwengoMotor.o       code   0x000c9a    program   0x000144
+                   STDLIB       code   0x000dde    program   0x000134
+      .code_dwengoBoard.o       code   0x000f12    program   0x00012e
+        .code_dwengoADC.o       code   0x001040    program   0x0000f2
+               _cinit_scn       code   0x001132    program   0x00009e
+          .code_pw2open.o       code   0x0011d0    program   0x000076
+          .code_adcopen.o       code   0x001246    program   0x00006e
+         .code_pw2setdc.o       code   0x0012b4    program   0x00005e
+         .code_pw1setdc.o       code   0x001312    program   0x00005e
+           .code_t2open.o       code   0x001370    program   0x000036
+          .code_pw1open.o       code   0x0013a6    program   0x000030
+         .code_adcsetch.o       code   0x0013d6    program   0x00002e
+         .code_fxd1616u.o       code   0x001404    program   0x00002c
+                    .code       code   0x001430    program   0x000020
+             _startup_scn       code   0x001450    program   0x00001c
+          .code_adcread.o       code   0x00146c    program   0x000012
+          .code_adcbusy.o       code   0x00147e    program   0x00000a
+          .code_adcconv.o       code   0x001488    program   0x000004
+           .code___init.o       code   0x00148c    program   0x000002
+       .romdata_adcconv.o    romdata   0x00148e    program   0x000000
+       .romdata_adcopen.o    romdata   0x00148e    program   0x000000
+     .romdata_dwengoLCD.o    romdata   0x00148e    program   0x000000
+       .romdata_adcbusy.o    romdata   0x00148e    program   0x000000
+   .romdata_dwengoMotor.o    romdata   0x00148e    program   0x000000
+       .romdata_adcread.o    romdata   0x00148e    program   0x000000
+      .romdata_adcsetch.o    romdata   0x00148e    program   0x000000
+   .romdata_dwengoBoard.o    romdata   0x00148e    program   0x000000
+         .romdata_c018i.o    romdata   0x00148e    program   0x000000
+          .idata_main.o_i    romdata   0x00148e    program   0x000012
+          .romdata_main.o    romdata   0x00148e    program   0x000000
+      .romdata_pw2setdc.o    romdata   0x00148e    program   0x000000
+      .idata_pw2setdc.o_i    romdata   0x00148e    program   0x000000
+      .romdata_pw1setdc.o    romdata   0x00148e    program   0x000000
+      .idata_pw1setdc.o_i    romdata   0x00148e    program   0x000000
+        .romdata_t2open.o    romdata   0x00148e    program   0x000000
+        .idata_t2open.o_i    romdata   0x00148e    program   0x000000
+       .romdata_pw2open.o    romdata   0x00148e    program   0x000000
+       .idata_pw2open.o_i    romdata   0x00148e    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x00148e    program   0x000000
+       .romdata_pw1open.o    romdata   0x00148e    program   0x000000
+        .romdata___init.o    romdata   0x00148e    program   0x000000
+       .idata_pw1open.o_i    romdata   0x00148e    program   0x000000
+   .romdata_dwengoDelay.o    romdata   0x00148e    program   0x000000
+     .romdata_dwengoADC.o    romdata   0x00148e    program   0x000000
+   .idata_dwengoMotor.o_i    romdata   0x0014a0    program   0x000000
+     .idata_dwengoLCD.o_i    romdata   0x0014a0    program   0x000000
+         .idata_c018i.o_i    romdata   0x0014a0    program   0x000000
+            .code_c018i.o       code   0x0014a0    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x0014a0    program   0x000000
+        .idata___init.o_i    romdata   0x0014a0    program   0x000000
+   .idata_dwengoDelay.o_i    romdata   0x0014a0    program   0x000000
+     .idata_dwengoADC.o_i    romdata   0x0014a0    program   0x000000
+   .idata_dwengoBoard.o_i    romdata   0x0014a0    program   0x000000
+      .idata_adcsetch.o_i    romdata   0x0014a0    program   0x000000
+       .idata_adcread.o_i    romdata   0x0014a0    program   0x000000
+       .idata_adcopen.o_i    romdata   0x0014a0    program   0x000000
+       .idata_adcconv.o_i    romdata   0x0014a0    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x0014a0    program   0x000000
     .config_300000_main.o    romdata   0x300000    program   0x000001
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
@@ -128,97 +128,96 @@ Linker Map File - Created Tue Apr 19 21:22:52 2016
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x00155d      
+                            0x000000    0x00149f      
                             0x300000    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            5482 out of 33048 program addresses used, program memory utilization is 16%
+            5292 out of 33048 program addresses used, program memory utilization is 16%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                  BusyADC   0x00153c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-               ConvertADC   0x001546    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   D1616S   0x00093a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x000948    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x000944    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00095a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x00092a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FLO1632S   0x000818    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632U   0x000814    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPM32   0x00083e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD1616S   0x000918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x0014c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                  OneByte   0x000fbe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                  OpenADC   0x001304    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-                 OpenPWM1   0x001464    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x001490    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-                 OpenPWM2   0x00128e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2open.c
-               OpenTimer2   0x00142e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
-                ProcLower   0x000f72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcUpper   0x000f68    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                  ReadADC   0x00152a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-               SetChanADC   0x001494    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
-                SetDCPWM1   0x0013d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
-                SetDCPWM2   0x001372    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
-                  TAGTB32   0x000964    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x000976    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-                 TstLower   0x000f5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstUpper   0x000f56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-              __FpCompare   0x000988    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 __FpExit   0x000a3e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x000a6a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x000a32    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x000a44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x000a5c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x000a4a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x000a64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x000a40    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x000a58    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x000ac2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x000ae2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x000b12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-       ___case_0_lbl00003   0x001148    program     static                          
-       ___case_1_lbl00004   0x001154    program     static                          
-       ___case_2_lbl00005   0x001160    program     static                          
-       ___case_3_lbl00006   0x00116c    program     static                          
-       ___case_4_lbl00007   0x001178    program     static                          
-      ___default_lbl00008   0x001184    program     static                          
-         ___else_lbl00002   0x0012ca    program     static                          
-         ___else_lbl00004   0x0012d8    program     static                          
-         ___else_lbl00007   0x0005d8    program     static                          
-         ___else_lbl00010   0x000656    program     static                          
-          ___for_lbl00001   0x000be8    program     static                          
-          ___for_lbl00002   0x000bf2    program     static                          
-          ___for_lbl00003   0x000b96    program     static                          
-          ___for_lbl00006   0x000ccc    program     static                          
-          ___for_lbl00007   0x000cd6    program     static                          
-          ___for_lbl00008   0x000c6e    program     static                          
-           ___if_lbl00001   0x0012ce    program     static                          
-           ___if_lbl00003   0x0012da    program     static                          
-           ___if_lbl00004   0x0005ae    program     static                          
-           ___if_lbl00004   0x000bf2    program     static                          
-           ___if_lbl00005   0x0005c0    program     static                          
-           ___if_lbl00006   0x0005dc    program     static                          
-           ___if_lbl00009   0x000cd6    program     static                          
-           ___if_lbl00009   0x000662    program     static                          
-           ___if_lbl00011   0x000662    program     static                          
+                  BusyADC   0x00147e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+               ConvertADC   0x001488    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   D1616S   0x00088e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00089c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x000898    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0008ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00087e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FLO1632S   0x00076c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x000768    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPM32   0x000792    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD1616S   0x00086c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x001404    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                  OneByte   0x000f00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                  OpenADC   0x001246    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+                 OpenPWM1   0x0013a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x0013d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+                 OpenPWM2   0x0011d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2open.c
+               OpenTimer2   0x001370    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                ProcLower   0x000eb4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x000eaa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                  ReadADC   0x00146c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+               SetChanADC   0x0013d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                SetDCPWM1   0x001312    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                SetDCPWM2   0x0012b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                  TAGTB32   0x0008b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                 TstLower   0x000e9e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x000e98    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+              __FpCompare   0x0008ca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 __FpExit   0x000980    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x0009ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x000974    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x000986    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00099e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00098c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0009a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x000982    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00099a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x000a04    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x000a24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x000a54    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+       ___case_0_lbl00003   0x00108a    program     static                          
+       ___case_1_lbl00004   0x001096    program     static                          
+       ___case_2_lbl00005   0x0010a2    program     static                          
+       ___case_3_lbl00006   0x0010ae    program     static                          
+       ___case_4_lbl00007   0x0010ba    program     static                          
+      ___default_lbl00008   0x0010c6    program     static                          
+         ___else_lbl00002   0x00120c    program     static                          
+         ___else_lbl00004   0x00121a    program     static                          
+         ___else_lbl00007   0x00052c    program     static                          
+         ___else_lbl00010   0x0005aa    program     static                          
+          ___for_lbl00001   0x000b2a    program     static                          
+          ___for_lbl00002   0x000b34    program     static                          
+          ___for_lbl00003   0x000ad8    program     static                          
+          ___for_lbl00006   0x000c0e    program     static                          
+          ___for_lbl00007   0x000c18    program     static                          
+          ___for_lbl00008   0x000bb0    program     static                          
+           ___if_lbl00001   0x001210    program     static                          
+           ___if_lbl00003   0x00121c    program     static                          
+           ___if_lbl00004   0x000502    program     static                          
+           ___if_lbl00004   0x000b34    program     static                          
+           ___if_lbl00005   0x000514    program     static                          
+           ___if_lbl00006   0x000530    program     static                          
+           ___if_lbl00009   0x000c18    program     static                          
+           ___if_lbl00009   0x0005b6    program     static                          
+           ___if_lbl00011   0x0005b6    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x000bf2    program     static                          
-       ___return_lbl00000   0x0014ec    program     static                          
-       ___return_lbl00000   0x0012ec    program     static                          
-       ___return_lbl00001   0x001528    program     static                          
-       ___return_lbl00001   0x0011de    program     static                          
-       ___return_lbl00002   0x00128c    program     static                          
-       ___return_lbl00002   0x000578    program     static                          
-       ___return_lbl00003   0x000618    program     static                          
-       ___return_lbl00005   0x000cd6    program     static                          
-       ___return_lbl00008   0x0006a6    program     static                          
-   ___switchexit_lbl00002   0x00118a    program     static                          
-        ___while_lbl00009   0x0011b6    program     static                          
-        ___while_lbl00010   0x0011c0    program     static                          
+       ___return_lbl00000   0x000b34    program     static                          
+       ___return_lbl00000   0x00142e    program     static                          
+       ___return_lbl00000   0x00122e    program     static                          
+       ___return_lbl00001   0x00146a    program     static                          
+       ___return_lbl00001   0x001120    program     static                          
+       ___return_lbl00002   0x0011ce    program     static                          
+       ___return_lbl00002   0x0004cc    program     static                          
+       ___return_lbl00003   0x00056c    program     static                          
+       ___return_lbl00005   0x000c18    program     static                          
+       ___return_lbl00008   0x0005fa    program     static                          
+   ___switchexit_lbl00002   0x0010cc    program     static                          
+        ___while_lbl00009   0x0010f8    program     static                          
+        ___while_lbl00010   0x001102    program     static                          
                __config_0   0x300000    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
                __config_1   0x300001    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
               __config_10   0x30000c    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
@@ -231,128 +230,128 @@ Linker Map File - Created Tue Apr 19 21:22:52 2016
                __config_7   0x300009    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
                __config_8   0x30000a    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
                __config_9   0x30000b    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
-                   __init   0x00154a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-                   __pa_0   0x0007b6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_0   0x0010d8    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_0   0x000e16    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_1   0x000e2e    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_1   0x0010ea    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_1   0x0007c2    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_2   0x000e42    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_2   0x0010f6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_2   0x0007ce    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_3   0x000e56    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_3   0x0007d6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_4   0x0007e2    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_4   0x000e64    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_5   0x000e6c    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_5   0x0007f0    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_6   0x0007fe    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_6   0x000e7a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_7   0x00080a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_7   0x000e88    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_8   0x000e92    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-               __tmplbl_0   0x000bb6    program     static                          
-               __tmplbl_1   0x000c8e    program     static                          
-            __zero_memory   0x0014ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                _do_cinit   0x0011f0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   __init   0x00148c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x00070a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_0   0x00101a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_0   0x000d58    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_1   0x000d70    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_1   0x00102c    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_1   0x000716    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_2   0x000d84    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_2   0x001038    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_2   0x000722    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_3   0x000d98    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_3   0x00072a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_4   0x000736    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_4   0x000da6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_5   0x000dae    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_5   0x000744    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_6   0x000752    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_6   0x000dbc    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_7   0x00075e    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_7   0x000dca    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_8   0x000dd4    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+               __tmplbl_0   0x000af8    program     static                          
+               __tmplbl_1   0x000bd0    program     static                          
+            __zero_memory   0x001430    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _do_cinit   0x001132    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 _startup   0x00150e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-          appendCharToLCD   0x000628    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-           appendIntToLCD   0x000770    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-       appendStringToLCD_   0x0006d0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
- appendStringToLCDcharptr   0x000740    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                 clearLCD   0x000512    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                 clearLed   0x001032    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-               commandLCD   0x000526    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                compare_l   0x001504    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                copy_loop   0x001262    program     static                          
-            copy_one_byte   0x001268    program     static                          
-              delay_100us   0x000b3e    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                 delay_ms   0x000c0a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                  delay_s   0x000cee    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                     done   0x00128c    program     static                          
-             done_copying   0x001276    program     static                          
-                      end   0x000578    program     static                          
-                      end   0x000618    program     static                          
-                      end   0x0006a2    program     static                          
-                      end   0x000cc0    program     static                          
-                      end   0x0011b2    program     static                          
-                      end   0x000c5c    program     static                          
-                      end   0x000be8    program     static                          
-                      end   0x000b90    program     static                          
-                  endloop   0x0014e8    program     static                          
-                  initADC   0x0010fe    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
-                initBoard   0x000fd0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                  initLCD   0x0004ca    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                initMotor   0x000d58    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   itoBCD   0x000f7c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                     itoa   0x000e9c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 jANotInf   0x00085c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                  jAisNeg   0x000a04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-              jBothFinite   0x00086a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x000876    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x0009a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                     jDo1   0x000f22    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo2   0x000f1e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo3   0x000f1a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo4   0x000f16    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo5   0x000f12    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                      jEQ   0x0009c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                     jEnd   0x000fba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                    jExch   0x0009ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jExpEQ   0x000a14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0009f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                jHaveZero   0x000872    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jI2F16Beg   0x000828    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    jLoop   0x000f94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                      jNE   0x0009c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jNoExch   0x0009ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jPkLoop   0x000a78    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x000ac2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x000aaa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x000a94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x000a4e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jRotate   0x000a20    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x000a0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jSignsEQ   0x0009aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                jTstLowZ1   0x000f66    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstSign1   0x000ec8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                  jUnpkA1   0x000aec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x000b04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x000afa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x000b1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x000b34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x000b2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x000b0e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-               jZero1and2   0x000a52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                     loop   0x00151e    program     static                          
-                     loop   0x000b7a    program     static                          
-                     loop   0x000bd2    program     static                          
-                     loop   0x000562    program     static                          
-                     loop   0x000602    program     static                          
-                     loop   0x00068c    program     static                          
-                     loop   0x000c46    program     static                          
-                     loop   0x00119c    program     static                          
-                     loop   0x000caa    program     static                          
-                     loop   0x0014cc    program     static                          
-                   loop_h   0x0014fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x001506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x001450    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+          appendCharToLCD   0x00057c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+           appendIntToLCD   0x0006c4    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+       appendStringToLCD_   0x000624    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+ appendStringToLCDcharptr   0x000694    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                 clearLCD   0x000466    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                 clearLed   0x000f74    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+               commandLCD   0x00047a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                compare_l   0x001446    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                copy_loop   0x0011a4    program     static                          
+            copy_one_byte   0x0011aa    program     static                          
+              delay_100us   0x000a80    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                 delay_ms   0x000b4c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                  delay_s   0x000c30    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                     done   0x0011ce    program     static                          
+             done_copying   0x0011b8    program     static                          
+                      end   0x0004cc    program     static                          
+                      end   0x00056c    program     static                          
+                      end   0x0005f6    program     static                          
+                      end   0x000c02    program     static                          
+                      end   0x0010f4    program     static                          
+                      end   0x000b9e    program     static                          
+                      end   0x000b2a    program     static                          
+                      end   0x000ad2    program     static                          
+                  endloop   0x00142a    program     static                          
+                  initADC   0x001040    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
+                initBoard   0x000f12    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                  initLCD   0x00041e    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                initMotor   0x000c9a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   itoBCD   0x000ebe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                     itoa   0x000dde    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 jANotInf   0x0007b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                  jAisNeg   0x000946    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+              jBothFinite   0x0007be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0007ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0008e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                     jDo1   0x000e64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo2   0x000e60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo3   0x000e5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo4   0x000e58    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo5   0x000e54    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                      jEQ   0x000904    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                     jEnd   0x000efc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                    jExch   0x000910    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jExpEQ   0x000956    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x00093a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                jHaveZero   0x0007c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x00077c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    jLoop   0x000ed6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                      jNE   0x000908    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNoExch   0x000930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jPkLoop   0x0009ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x000a04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0009ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x0009d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x000990    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jRotate   0x000962    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x00094c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0008ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                jTstLowZ1   0x000ea8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstSign1   0x000e0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                  jUnpkA1   0x000a2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x000a46    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x000a3c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x000a5e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x000a76    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x000a6c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x000a50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+               jZero1and2   0x000994    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                     loop   0x001460    program     static                          
+                     loop   0x000abc    program     static                          
+                     loop   0x000b14    program     static                          
+                     loop   0x0004b6    program     static                          
+                     loop   0x000556    program     static                          
+                     loop   0x0005e0    program     static                          
+                     loop   0x000b88    program     static                          
+                     loop   0x0010de    program     static                          
+                     loop   0x000bec    program     static                          
+                     loop   0x00140e    program     static                          
+                   loop_h   0x00143e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x001448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      main   0x000014    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
-                      max   0x00043e    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
-           printCharToLCD   0x0006b8    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-            printIntToLCD   0x0007a8    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-         printStringToLCD   0x000718    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                  readADC   0x001118    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
-             setCursorLCD   0x000588    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   setLed   0x000ff0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-            setLedPattern   0x001074    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-           setLedRegister   0x000fea    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-           setSpeedMotor1   0x000d8c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-           setSpeedMotor2   0x000dca    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-               stopMotors   0x000e08    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                     test   0x00120a    program     static                          
-               zero_block   0x0014fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      max   0x000392    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
+           printCharToLCD   0x00060c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+            printIntToLCD   0x0006fc    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+         printStringToLCD   0x00066c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                  readADC   0x00105a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
+             setCursorLCD   0x0004dc    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   setLed   0x000f32    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+            setLedPattern   0x000fb6    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+           setLedRegister   0x000f2c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+           setSpeedMotor1   0x000cce    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+           setSpeedMotor2   0x000d0c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+               stopMotors   0x000d4a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                     test   0x00114c    program     static                          
+               zero_block   0x00143e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
@@ -664,205 +663,204 @@ Linker Map File - Created Tue Apr 19 21:22:52 2016
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                      main   0x000014    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
-                      max   0x00043e    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
-                  initLCD   0x0004ca    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                 clearLCD   0x000512    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-               commandLCD   0x000526    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                     loop   0x000562    program     static                          
-                      end   0x000578    program     static                          
-       ___return_lbl00002   0x000578    program     static                          
-             setCursorLCD   0x000588    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-           ___if_lbl00004   0x0005ae    program     static                          
-           ___if_lbl00005   0x0005c0    program     static                          
-         ___else_lbl00007   0x0005d8    program     static                          
-           ___if_lbl00006   0x0005dc    program     static                          
-                     loop   0x000602    program     static                          
-       ___return_lbl00003   0x000618    program     static                          
-                      end   0x000618    program     static                          
-          appendCharToLCD   0x000628    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-         ___else_lbl00010   0x000656    program     static                          
-           ___if_lbl00011   0x000662    program     static                          
-           ___if_lbl00009   0x000662    program     static                          
-                     loop   0x00068c    program     static                          
-                      end   0x0006a2    program     static                          
-       ___return_lbl00008   0x0006a6    program     static                          
-           printCharToLCD   0x0006b8    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-       appendStringToLCD_   0x0006d0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-         printStringToLCD   0x000718    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
- appendStringToLCDcharptr   0x000740    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-           appendIntToLCD   0x000770    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-            printIntToLCD   0x0007a8    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_0   0x0007b6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_1   0x0007c2    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_2   0x0007ce    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_3   0x0007d6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_4   0x0007e2    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_5   0x0007f0    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_6   0x0007fe    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                   __pa_7   0x00080a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
-                 FLO1632U   0x000814    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632S   0x000818    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                jI2F16Beg   0x000828    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPM32   0x00083e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotInf   0x00085c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-              jBothFinite   0x00086a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jHaveZero   0x000872    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x000876    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD1616S   0x000918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x00092a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x00093a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x000944    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x000948    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00095a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  TAGTB32   0x000964    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x000976    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-              __FpCompare   0x000988    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jBothNotZero   0x0009a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jSignsEQ   0x0009aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jEQ   0x0009c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jNE   0x0009c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExch   0x0009ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jNoExch   0x0009ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0009f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jAisNeg   0x000a04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x000a0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jExpEQ   0x000a14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jRotate   0x000a20    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x000a32    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpExit   0x000a3e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x000a40    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x000a44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x000a4a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x000a4e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jZero1and2   0x000a52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x000a58    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x000a5c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x000a64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x000a6a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jPkLoop   0x000a78    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x000a94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x000aaa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x000ac2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x000ac2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x000ae2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x000aec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x000afa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x000b04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x000b0e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x000b12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x000b1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x000b2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x000b34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              delay_100us   0x000b3e    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                     loop   0x000b7a    program     static                          
-                      end   0x000b90    program     static                          
-          ___for_lbl00003   0x000b96    program     static                          
-               __tmplbl_0   0x000bb6    program     static                          
-                     loop   0x000bd2    program     static                          
-                      end   0x000be8    program     static                          
-          ___for_lbl00001   0x000be8    program     static                          
-       ___return_lbl00000   0x000bf2    program     static                          
-           ___if_lbl00004   0x000bf2    program     static                          
-          ___for_lbl00002   0x000bf2    program     static                          
-                 delay_ms   0x000c0a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                     loop   0x000c46    program     static                          
-                      end   0x000c5c    program     static                          
-          ___for_lbl00008   0x000c6e    program     static                          
-               __tmplbl_1   0x000c8e    program     static                          
-                     loop   0x000caa    program     static                          
-                      end   0x000cc0    program     static                          
-          ___for_lbl00006   0x000ccc    program     static                          
-           ___if_lbl00009   0x000cd6    program     static                          
-       ___return_lbl00005   0x000cd6    program     static                          
-          ___for_lbl00007   0x000cd6    program     static                          
-                  delay_s   0x000cee    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
-                initMotor   0x000d58    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-           setSpeedMotor1   0x000d8c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-           setSpeedMotor2   0x000dca    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-               stopMotors   0x000e08    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_0   0x000e16    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_1   0x000e2e    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_2   0x000e42    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_3   0x000e56    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_4   0x000e64    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_5   0x000e6c    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_6   0x000e7a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_7   0x000e88    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                   __pa_8   0x000e92    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
-                     itoa   0x000e9c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstSign1   0x000ec8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo5   0x000f12    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo4   0x000f16    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo3   0x000f1a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo2   0x000f1e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo1   0x000f22    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstUpper   0x000f56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstLower   0x000f5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstLowZ1   0x000f66    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcUpper   0x000f68    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcLower   0x000f72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                   itoBCD   0x000f7c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                    jLoop   0x000f94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                     jEnd   0x000fba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                  OneByte   0x000fbe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                initBoard   0x000fd0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-           setLedRegister   0x000fea    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   setLed   0x000ff0    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                 clearLed   0x001032    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-            setLedPattern   0x001074    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_0   0x0010d8    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_1   0x0010ea    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                   __pa_2   0x0010f6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
-                  initADC   0x0010fe    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
-                  readADC   0x001118    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
-       ___case_0_lbl00003   0x001148    program     static                          
-       ___case_1_lbl00004   0x001154    program     static                          
-       ___case_2_lbl00005   0x001160    program     static                          
-       ___case_3_lbl00006   0x00116c    program     static                          
-       ___case_4_lbl00007   0x001178    program     static                          
-      ___default_lbl00008   0x001184    program     static                          
-   ___switchexit_lbl00002   0x00118a    program     static                          
-                     loop   0x00119c    program     static                          
-                      end   0x0011b2    program     static                          
-        ___while_lbl00009   0x0011b6    program     static                          
-        ___while_lbl00010   0x0011c0    program     static                          
-       ___return_lbl00001   0x0011de    program     static                          
-                _do_cinit   0x0011f0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x00120a    program     static                          
-                copy_loop   0x001262    program     static                          
-            copy_one_byte   0x001268    program     static                          
-             done_copying   0x001276    program     static                          
-       ___return_lbl00002   0x00128c    program     static                          
-                     done   0x00128c    program     static                          
-                 OpenPWM2   0x00128e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2open.c
-         ___else_lbl00002   0x0012ca    program     static                          
-           ___if_lbl00001   0x0012ce    program     static                          
-         ___else_lbl00004   0x0012d8    program     static                          
-           ___if_lbl00003   0x0012da    program     static                          
-       ___return_lbl00000   0x0012ec    program     static                          
-                  OpenADC   0x001304    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-                SetDCPWM2   0x001372    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
-                SetDCPWM1   0x0013d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
-               OpenTimer2   0x00142e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
-                 OpenPWM1   0x001464    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x001490    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-               SetChanADC   0x001494    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
-                 FXD1616U   0x0014c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x0014cc    program     static                          
-                  endloop   0x0014e8    program     static                          
-       ___return_lbl00000   0x0014ec    program     static                          
-            __zero_memory   0x0014ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_h   0x0014fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               zero_block   0x0014fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                compare_l   0x001504    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x001506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 _startup   0x00150e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x00151e    program     static                          
-       ___return_lbl00001   0x001528    program     static                          
-                  ReadADC   0x00152a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-                  BusyADC   0x00153c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-               ConvertADC   0x001546    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   __init   0x00154a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                      max   0x000392    program     extern /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
+                  initLCD   0x00041e    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                 clearLCD   0x000466    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+               commandLCD   0x00047a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                     loop   0x0004b6    program     static                          
+                      end   0x0004cc    program     static                          
+       ___return_lbl00002   0x0004cc    program     static                          
+             setCursorLCD   0x0004dc    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+           ___if_lbl00004   0x000502    program     static                          
+           ___if_lbl00005   0x000514    program     static                          
+         ___else_lbl00007   0x00052c    program     static                          
+           ___if_lbl00006   0x000530    program     static                          
+                     loop   0x000556    program     static                          
+                      end   0x00056c    program     static                          
+       ___return_lbl00003   0x00056c    program     static                          
+          appendCharToLCD   0x00057c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+         ___else_lbl00010   0x0005aa    program     static                          
+           ___if_lbl00009   0x0005b6    program     static                          
+           ___if_lbl00011   0x0005b6    program     static                          
+                     loop   0x0005e0    program     static                          
+                      end   0x0005f6    program     static                          
+       ___return_lbl00008   0x0005fa    program     static                          
+           printCharToLCD   0x00060c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+       appendStringToLCD_   0x000624    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+         printStringToLCD   0x00066c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+ appendStringToLCDcharptr   0x000694    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+           appendIntToLCD   0x0006c4    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+            printIntToLCD   0x0006fc    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_0   0x00070a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_1   0x000716    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_2   0x000722    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_3   0x00072a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_4   0x000736    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_5   0x000744    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_6   0x000752    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                   __pa_7   0x00075e    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoLCD.c
+                 FLO1632U   0x000768    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x00076c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x00077c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPM32   0x000792    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x0007b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+              jBothFinite   0x0007be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jHaveZero   0x0007c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0007ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD1616S   0x00086c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00087e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x00088e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x000898    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00089c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0008ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  TAGTB32   0x0008b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+              __FpCompare   0x0008ca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0008e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0008ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jEQ   0x000904    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jNE   0x000908    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x000910    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNoExch   0x000930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x00093a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jAisNeg   0x000946    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x00094c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jExpEQ   0x000956    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jRotate   0x000962    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x000974    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpExit   0x000980    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x000982    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x000986    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00098c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x000990    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jZero1and2   0x000994    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00099a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00099e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0009a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x0009ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jPkLoop   0x0009ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x0009d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0009ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x000a04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x000a04    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x000a24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x000a2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x000a3c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x000a46    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x000a50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x000a54    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x000a5e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x000a6c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x000a76    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              delay_100us   0x000a80    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                     loop   0x000abc    program     static                          
+                      end   0x000ad2    program     static                          
+          ___for_lbl00003   0x000ad8    program     static                          
+               __tmplbl_0   0x000af8    program     static                          
+                     loop   0x000b14    program     static                          
+                      end   0x000b2a    program     static                          
+          ___for_lbl00001   0x000b2a    program     static                          
+           ___if_lbl00004   0x000b34    program     static                          
+       ___return_lbl00000   0x000b34    program     static                          
+          ___for_lbl00002   0x000b34    program     static                          
+                 delay_ms   0x000b4c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                     loop   0x000b88    program     static                          
+                      end   0x000b9e    program     static                          
+          ___for_lbl00008   0x000bb0    program     static                          
+               __tmplbl_1   0x000bd0    program     static                          
+                     loop   0x000bec    program     static                          
+                      end   0x000c02    program     static                          
+          ___for_lbl00006   0x000c0e    program     static                          
+       ___return_lbl00005   0x000c18    program     static                          
+          ___for_lbl00007   0x000c18    program     static                          
+           ___if_lbl00009   0x000c18    program     static                          
+                  delay_s   0x000c30    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoDelay.c
+                initMotor   0x000c9a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+           setSpeedMotor1   0x000cce    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+           setSpeedMotor2   0x000d0c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+               stopMotors   0x000d4a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_0   0x000d58    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_1   0x000d70    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_2   0x000d84    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_3   0x000d98    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_4   0x000da6    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_5   0x000dae    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_6   0x000dbc    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_7   0x000dca    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                   __pa_8   0x000dd4    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoMotor.c
+                     itoa   0x000dde    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstSign1   0x000e0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo5   0x000e54    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo4   0x000e58    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo3   0x000e5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo2   0x000e60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo1   0x000e64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x000e98    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstLower   0x000e9e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstLowZ1   0x000ea8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x000eaa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcLower   0x000eb4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                   itoBCD   0x000ebe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                    jLoop   0x000ed6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                     jEnd   0x000efc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                  OneByte   0x000f00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                initBoard   0x000f12    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+           setLedRegister   0x000f2c    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   setLed   0x000f32    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                 clearLed   0x000f74    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+            setLedPattern   0x000fb6    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_0   0x00101a    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_1   0x00102c    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                   __pa_2   0x001038    program     static /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoBoard.c
+                  initADC   0x001040    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
+                  readADC   0x00105a    program     extern /sdb/wheirman/svn-tree/dwengo/website/Dwengo-library/lib/dwengoADC.c
+       ___case_0_lbl00003   0x00108a    program     static                          
+       ___case_1_lbl00004   0x001096    program     static                          
+       ___case_2_lbl00005   0x0010a2    program     static                          
+       ___case_3_lbl00006   0x0010ae    program     static                          
+       ___case_4_lbl00007   0x0010ba    program     static                          
+      ___default_lbl00008   0x0010c6    program     static                          
+   ___switchexit_lbl00002   0x0010cc    program     static                          
+                     loop   0x0010de    program     static                          
+                      end   0x0010f4    program     static                          
+        ___while_lbl00009   0x0010f8    program     static                          
+        ___while_lbl00010   0x001102    program     static                          
+       ___return_lbl00001   0x001120    program     static                          
+                _do_cinit   0x001132    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x00114c    program     static                          
+                copy_loop   0x0011a4    program     static                          
+            copy_one_byte   0x0011aa    program     static                          
+             done_copying   0x0011b8    program     static                          
+       ___return_lbl00002   0x0011ce    program     static                          
+                     done   0x0011ce    program     static                          
+                 OpenPWM2   0x0011d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2open.c
+         ___else_lbl00002   0x00120c    program     static                          
+           ___if_lbl00001   0x001210    program     static                          
+         ___else_lbl00004   0x00121a    program     static                          
+           ___if_lbl00003   0x00121c    program     static                          
+       ___return_lbl00000   0x00122e    program     static                          
+                  OpenADC   0x001246    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+                SetDCPWM2   0x0012b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                SetDCPWM1   0x001312    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+               OpenTimer2   0x001370    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                 OpenPWM1   0x0013a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x0013d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+               SetChanADC   0x0013d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                 FXD1616U   0x001404    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x00140e    program     static                          
+                  endloop   0x00142a    program     static                          
+       ___return_lbl00000   0x00142e    program     static                          
+            __zero_memory   0x001430    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_h   0x00143e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x00143e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                compare_l   0x001446    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x001448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x001450    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x001460    program     static                          
+       ___return_lbl00001   0x00146a    program     static                          
+                  ReadADC   0x00146c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+                  BusyADC   0x00147e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+               ConvertADC   0x001488    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   __init   0x00148c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                __config_0   0x300000    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
                __config_1   0x300001    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
                __config_2   0x300002    program     static /home/pieter/MPLABXProjects/robotcompetitie.X/main.c
