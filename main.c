@@ -70,7 +70,7 @@ void main(void) {
     //LINKS = 2 RECHTS = 1
     while (TRUE) {
         voor = readADC(V);
-        rechtsVoor = readADC(RV);
+        rechtsVoor = readADC(RV) * 0.9;
         rechtsAchter = readADC(RA);
 
         vinnig = 7;
@@ -99,10 +99,10 @@ void main(void) {
                 delay_ms(600);
             }
             backlightOff();
-        } else if (gem > 250) {
+        } else if (gem > 350) {
             setSpeedMotor1(1023);
             setSpeedMotor2(700);
-        } else if (rechtsAchter > (rechtsVoor * 1.2)) {
+        } else if (rechtsAchter > (rechtsVoor * 1.1)) {
             setSpeedMotor1(1023 - andereMotor);
             setSpeedMotor2(1023);
         } else if (rechtsAchter < rechtsVoor) {
