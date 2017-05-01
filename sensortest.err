@@ -1,0 +1,1 @@
+Warning[2103] sensortest.c 13 : default startup code expects main function declared as 'void main (void)'

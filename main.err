@@ -1,0 +1,1 @@
+Warning[2103] main.c 26 : default startup code expects main function declared as 'void main (void)'
