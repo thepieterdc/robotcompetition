@@ -1,2 +1,0 @@
-# robotcompetition
-UGent Robotcompetition bots
