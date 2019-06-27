@@ -1,0 +1,4 @@
+Warning[2103] sensortest.c 53 : default startup code expects main function declared as 'void main (void)'
+Warning[2058] sensortest.c 73 : call of function without prototype
+Warning[2058] sensortest.c 76 : call of function without prototype
+Warning[2058] sensortest.c 97 : call of function without prototype

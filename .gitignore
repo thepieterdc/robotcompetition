@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Object files
 *.o
 *.ko
@@ -30,3 +31,7 @@
 
 # Debug files
 *.dSYM/
+=======
+/build/default/
+/dist/default/
+>>>>>>> repo-2017/master
